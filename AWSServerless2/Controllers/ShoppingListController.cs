@@ -18,6 +18,7 @@ namespace AWSServerless2.Controllers
             _shoppingListService = shoppingListService;
         }
 
+
         [HttpGet]
         public IActionResult GetShoppingList()
         {
