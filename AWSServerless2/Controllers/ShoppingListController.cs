@@ -6,7 +6,6 @@ using AWSServerless2.Models;
 using AWSServerless2.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
 namespace AWSServerless2.Controllers
 {
     [Route( "v1/shoppingList" )]
