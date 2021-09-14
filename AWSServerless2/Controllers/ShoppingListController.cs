@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AWSServerless2.Controllers
 {
     [Route( "v1/shoppingList" )]
-    public class ShoppingListController : ControllerBase
+    public class ShoppingListController : Controller
     {
         private readonly IShoppingListService _shoppingListService;
 

@@ -28,7 +28,7 @@ namespace AWSServerless2
         {
             services.AddMvc().SetCompatibilityVersion( CompatibilityVersion.Version_3_0 );
             services.AddHealthChecks();
-            //services.AddSingleton< IShoppingListService, ShoppingListService >();
+            services.AddSingleton< IShoppingListService, ShoppingListService >();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
